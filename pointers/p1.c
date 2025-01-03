@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int age = 22;
+    int *ptr = &age;
+    int _age = *ptr;
+
+    printf("Value of age using pointer: %d\n", *ptr);
+    return 0;
+}
